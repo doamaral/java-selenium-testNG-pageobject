@@ -16,11 +16,11 @@ public class BaseTest {
 
     @AfterTest
     public void tearDown(){
-//        try {
-//            Thread.sleep(5000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//        nav.quit();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        nav.quit();
     }
 }
