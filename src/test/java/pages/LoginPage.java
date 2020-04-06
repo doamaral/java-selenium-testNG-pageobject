@@ -8,14 +8,9 @@ public class LoginPage extends BasePage{
         this.driver = driver;
     }
 
-    public HomePage fillLoginForm(String user, String password){
+    public void fillLoginForm(String user, String password){
         fillInputText(this.driver.findElement(By.id("email")), user);
         fillInputText(this.driver.findElement(By.id("senha")), password);
         clickButton(this.driver.findElement(By.className("btn-primary")));
-        return new HomePage();
-    }
-    public LoginPage fillLoginForm(){
-        clickButton(this.driver.findElement(By.className("btn-primary")));
-        return this;
     }
 }
