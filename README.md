@@ -20,7 +20,7 @@ Using Page Object Model and Page Factory in a Simple UI Test project
 ```
 
 ### First Test without POM yet
-1. Create a `LoginPageTest` class at `src/test/java`
+1. Create a `` class at `src/test/java`
 1. Create a Driver Factory, as simple as you can imagine
 1. Interact with Elements to do Login successfully
 1. Pass the test
